@@ -1,0 +1,74 @@
+body {
+  background-image: url(../images/WebsiteBackgroundV1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topic-container {
+  background-color: #333333;
+  height: 80px;
+  width: 350px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.topic-container>h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#goals_container {
+  position: absolute;
+  left: 41.5%;
+  top: 85%;
+}
+
+a {
+  display: block;
+}
+
+#lession_container {
+  position: absolute;
+  left: 7%;
+  top: 9%;
+}
+
+#Teams_container {
+  position: absolute;
+  left: 3%;
+  top: 59%;
+}
+
+#Features_container {
+  position: absolute;
+  right: 7%;
+  top: 60%;
+}
+
+#Process_container {
+  position: absolute;
+  right: 10%;
+  top: 9%;
+}
+
+.topic-container:hover {
+  background-color: #00a31b;
+}
+
+body>h1 {
+  text-align: center;
+  color: #00a31b;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'bauhaus93', sans-serif;
+  font-size: 300%;
+}
+
+@font-face {
+  font-family: 'bauhaus93';
+  src: url(/fonts/BAUHS93.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
